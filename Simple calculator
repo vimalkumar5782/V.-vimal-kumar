@@ -1,0 +1,19 @@
+c=input("enter a string:")
+a=int(input("enter the value of a:"))
+b=int(input("enter the value of b:"))
+if(c=='+'):
+ print(a,"+",b,":",(a+b))
+elif(c=='-'):
+    print(a,"-",b,":",(a-b))
+elif(c=='*'):
+   print(a,"*",b,":",(a*b))
+elif(c=='/'):
+   print(a,"/",b,":",(a/b))
+elif(c=='%'):
+   print(a,"%",b,":",(a%b))
+elif(c=='**'):
+   print(a,"**",b,":",pow(a,b))
+elif(c=='//'):
+   print(a,"//",b,":",(a//b))
+else:
+ print("invalid output")
